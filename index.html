@@ -2,7 +2,7 @@
 layout: default
 portrait: assets/images/joe.jpg
 author: Joe Matthews
-subtitle: Father, Friend & Programmer.
+subtitle: Father, friend & programmer.
 email: joe@techwonderful.com
 source: https://github.com/joematthews/resume
 summary: >-
@@ -77,13 +77,13 @@ summary: >-
               </a>
             </div>
             <div class="col-18 col-lg order-lg-3 col-md order-md-3">
-              <p class="text-muted text-nowrap">{{ organization.description }}</p>
+              <p class="text-muted text-nowrap text-right">{{ organization.title }}</p>
             </div>
             <div class="col-24 col-lg order-lg-2 col-md order-md-2">
               <h3 class="text-nowrap">{{ organization.name }}</h3>
             </div>
             <div class="col-24 col-lg order-lg-4 order-md-4">
-              <p class="text-muted"><small>{{ organization.dates }}</small></p>
+              <p class="text-muted text-right"><small>{{ organization.dates }}</small></p>
             </div>
           </div>
           {% if organization != site.data.organizations.last %}
@@ -138,27 +138,27 @@ summary: >-
       <br/>
       <div class="card">
         <div class="card-header text-center">
-          <h2 class="my-accent-font">Certifications</h2>
+          <h2 class="my-accent-font">Education & Certifications</h2>
         </div>
         <div class="card-body">
-          {% for certification in site.data.certifications %}
+          {% for school in site.data.schools %}
           <div class="row align-items-center">
-            <div class="col-6 col-sm-4 order-md-2">
-              <a href="{{ certification.url }}" target="_blank">
-                <img class="img-fluid rounded" src="{{ certification.image | relative_url }}">
+            <div class="col-6 col-sm-4 order-lg-1 order-md-1">
+              <a href="{{ school.url }}" target="_blank">
+                <img class="img-fluid rounded" src="{{ school.image | relative_url }}">
               </a>
             </div>
-            <div class="col-18 col-md-4 order-md-4">
-              <p class="text-muted text-right">{{ certification.location }}</p>
+            <div class="col-18 col-lg order-lg-3 col-md order-md-3">
+              <p class="text-muted text-nowrap text-right">{{ school.description }}</p>
             </div>
-            <div class="col-24 col-md order-md-3">
-              <h3 class="text-nowrap">{{ certification.name }}</h3>
+            <div class="col-24 col-lg order-lg-2 col-md order-md-2">
+              <h3 class="text-nowrap">{{ school.name }}</h3>
             </div>
-            <div class="col-24 col-md-5 order-md-1">
-              <p class="text-muted"><small>{{ certification.dates }}</small></p>
+            <div class="col-24 col-lg order-lg-4 order-md-4">
+              <p class="text-muted text-right"><small>{{ school.dates }}</small></p>
             </div>
           </div>
-          {% if certification != site.data.certifications.last %}
+          {% if school != site.data.school.last %}
           <hr/>
           {% endif %}
           {% endfor %}
