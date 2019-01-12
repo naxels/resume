@@ -1,5 +1,25 @@
 [
   {
+    "name": "Advanced SQL",
+    "image": "/assets/images/skills/sql.png",
+    "url": "https://en.wikipedia.org/wiki/SQL"
+  },
+  {
+    "name": "Power BI",
+    "image": "/assets/images/skills/powerbi.jpg",
+    "url": "https://powerbi.microsoft.com"
+  },
+  {
+    "name": "Tableau",
+    "image": "/assets/images/skills/tableau.png",
+    "url": "https://www.tableau.com"
+  },
+  {
+    "name": "Data Integration",
+    "image": "/assets/images/skills/pdi.png",
+    "url": "https://www.hitachivantara.com/en-us/products/big-data-integration-analytics/pentaho-data-integration.html"
+  },
+  {
     "name": "Ruby",
     "image": "/assets/images/skills/ruby.png",
     "url": "https://www.ruby-lang.org/en/about/"
@@ -13,26 +33,6 @@
     "name": "PostgreSQL",
     "image": "/assets/images/skills/postgres.png",
     "url": "https://www.postgresql.org/about/"
-  },
-  {
-    "name": "Bootstrap",
-    "image": "/assets/images/skills/bootstrap.png",
-    "url": "https://getbootstrap.com/"
-  },
-  {
-    "name": "HTML5",
-    "image": "/assets/images/skills/html5.png",
-    "url": "https://en.wikipedia.org/wiki/HTML5"
-  },
-  {
-    "name": "CSS3",
-    "image": "/assets/images/skills/css3.png",
-    "url": "https://en.wikipedia.org/wiki/Cascading_Style_Sheets"
-  },
-  {
-    "name": "JavaScript",
-    "image": "/assets/images/skills/js.jpg",
-    "url": "https://en.wikipedia.org/wiki/JavaScript"
   },
   {
     "name": "Highcharts JS",
@@ -53,9 +53,35 @@
     "name": "Linux Admin",
     "image": "/assets/images/skills/gnulinux.png",
     "url": "https://en.wikipedia.org/wiki/Linux"
-  },{
-    "name": "Data Integration",
-    "image": "/assets/images/skills/pdi.png",
-    "url": "http://www.pentaho.com/product/data-integration"
+  },
+  {
+    "name": "Amazon Web Services",
+    "image": "/assets/images/skills/aws.png",
+    "url": "https://aws.amazon.com"
+  },
+  {
+    "name": "Elastic ELK Stack",
+    "image": "/assets/images/skills/elastic.png",
+    "url": "https://www.elastic.co/products"
+  },
+  {
+    "name": "Bootstrap",
+    "image": "/assets/images/skills/bootstrap.png",
+    "url": "https://getbootstrap.com/"
+  },
+  {
+    "name": "JavaScript",
+    "image": "/assets/images/skills/js.jpg",
+    "url": "https://en.wikipedia.org/wiki/JavaScript"
+  },
+  {
+    "name": "HTML5",
+    "image": "/assets/images/skills/html5.png",
+    "url": "https://en.wikipedia.org/wiki/HTML5"
+  },
+  {
+    "name": "CSS3",
+    "image": "/assets/images/skills/css3.png",
+    "url": "https://en.wikipedia.org/wiki/Cascading_Style_Sheets"
   }
 ]

@@ -2,7 +2,7 @@
 layout: default
 portrait: assets/images/patrick.jpg
 author: Patrick van de Glind
-subtitle: Resume.
+subtitle: Turn data into insights<br>Continuously learn and grow
 email: naxels@gmail.com
 source: https://github.com/naxels/resume
 summary: >-
@@ -35,6 +35,8 @@ summary: >-
     <div class="col-lg-18 offset-lg-3 col-24">
       <hr/>
       <p class="text-center" style="font-size: 1.3em;">{{ page.summary }}</p>
+      <p class="text-center">I believe that programming is data transformation</a></p>
+      <p class="text-center">I am curious and self-starting</a></p>
     </div>
   </div>
   <div class="row">
@@ -63,35 +65,6 @@ summary: >-
       <br/>
     </div>
     <div class="col-24 col-lg">
-      <div class="card">
-        <div class="card-header text-center">
-          <h2 class="my-accent-font">Organizations</h2>
-        </div>
-        <div class="card-body">
-          {% for organization in site.data.organizations %}
-          <div class="row align-items-center">
-            <div class="col-6 col-sm-4 order-lg-1 order-md-1">
-              <a href="{{ organization.url }}" target="_blank">
-                <img class="img-fluid rounded" src="{{ organization.image | relative_url }}">
-              </a>
-            </div>
-            <div class="col-18 col-lg order-lg-3 col-md order-md-3">
-              <p class="text-muted text-nowrap text-right">{{ organization.title }}</p>
-            </div>
-            <div class="col-24 col-lg order-lg-2 col-md order-md-2">
-              <h3 class="text-nowrap">{{ organization.name }}</h3>
-            </div>
-            <div class="col-24 col-lg order-lg-4 order-md-4">
-              <p class="text-muted text-right"><small>{{ organization.dates }}</small></p>
-            </div>
-          </div>
-          {% if organization != site.data.organizations.last %}
-          <hr/>
-          {% endif %}
-          {% endfor %}
-        </div>
-      </div>
-      <br/>
       <div class="card">
         <div class="card-header text-center">
           <h2 class="my-accent-font">Companies</h2>
@@ -158,6 +131,35 @@ summary: >-
             </div>
           </div>
           {% if school != site.data.school.last %}
+          <hr/>
+          {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+      <br/>
+      <div class="card">
+        <div class="card-header text-center">
+          <h2 class="my-accent-font">Current areas of interest</h2>
+        </div>
+        <div class="card-body">
+          {% for organization in site.data.organizations %}
+          <div class="row align-items-center">
+            <div class="col-6 col-sm-4 order-lg-1 order-md-1">
+              <a href="{{ organization.url }}" target="_blank">
+                <img class="img-fluid rounded" src="{{ organization.image | relative_url }}">
+              </a>
+            </div>
+            <div class="col-18 col-lg order-lg-3 col-md order-md-3">
+              <p class="text-muted text-nowrap text-right">{{ organization.title }}</p>
+            </div>
+            <div class="col-24 col-lg order-lg-2 col-md order-md-2">
+              <h3 class="text-nowrap">{{ organization.name }}</h3>
+            </div>
+            <div class="col-24 col-lg order-lg-4 order-md-4">
+              <p class="text-muted text-right"><small>{{ organization.dates }}</small></p>
+            </div>
+          </div>
+          {% if organization != site.data.organizations.last %}
           <hr/>
           {% endif %}
           {% endfor %}

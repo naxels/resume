@@ -1,18 +1,18 @@
 [
   {
-    "name": "University of Oklahoma",
-    "description": "Sociology",
-    "location": "Norman, OK",
-    "dates": "Aug 2003 - Mar 2006",
-    "image": "/assets/images/schools/ou.jpg",
-    "url": "http://www.ou.edu/cas/soc"
+    "name": "Business Reinvention Practitioner",
+    "description": "BRi training given by Clerestory Consulting",
+    "location": "Zaltbommel",
+    "dates": "July 2018",
+    "image": "/assets/images/schools/bri.png",
+    "url": "https://t.cred.ly/zENLVVVt_QxqGN0TR9uB8Q,,$$$RCJ2OhC5bvNMoIi8rreAvCHxySRGW_FaAItevOwBIFCNYbTBGCu0yLTUGVUd8OohfyGFm7F3NsueyLRR3dsqLw,,?r=https%3A%2F%2Fcredly.com%2Fcredit%2F15074222&t=1533028510&c=lip"
   },
   {
-    "name": "Comptia A+",
-    "description": "IT skills.  Hardware, software & networking.",
-    "location": "Norman, OK",
-    "dates": "May 2013",
-    "image": "/assets/images/schools/aplus.jpg",
-    "url": "https://certification.comptia.org/certifications/a"
+    "name": "Koning Willem 1 College",
+    "description": "ICT Beheerder niveau 4",
+    "location": "'s Hertogenbosch, Noord Brabant, The Netherlands",
+    "dates": "2004 - 2007",
+    "image": "/assets/images/schools/kw1c.jpg",
+    "url": "https://www.kw1c.nl"
   }
 ]
