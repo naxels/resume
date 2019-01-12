@@ -65,6 +65,11 @@
     "url": "https://www.elastic.co/products"
   },
   {
+    "name": "Go",
+    "image": "/assets/images/skills/golang.png",
+    "url": "https://golang.org"
+  },
+  {
     "name": "Bootstrap",
     "image": "/assets/images/skills/bootstrap.png",
     "url": "https://getbootstrap.com/"
