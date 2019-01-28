@@ -1,7 +1,7 @@
 [
   {
     "name": "Amazon Web Services",
-    "title": "Getting Certified & started to use",
+    "title": "Got Certified & started to use",
     "description": "",
     "image": "/assets/images/skills/aws.png",
     "dates": "Jan 2019 - Present",
@@ -13,5 +13,12 @@
     "image": "/assets/images/organizations/clojure.png",
     "dates": "Oct 2018 - Present",
     "url": "https://clojure.org"
+  },
+  {
+    "name": "BI Tools",
+    "title": "Power BI, Tableau",
+    "image": "/assets/images/skills/powerbi.jpg",
+    "dates": "Dec 2018 - Present",
+    "url": "https://powerbi.microsoft.com"
   }
 ]

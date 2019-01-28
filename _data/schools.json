@@ -1,5 +1,13 @@
 [
   {
+    "name": "AWS Certified Cloud Practitioner",
+    "description": "AWS Certified Cloud Practitioner",
+    "location": "Nieuwegein",
+    "dates": "January 2019",
+    "image": "/assets/images/skills/aws.png",
+    "url": "https://aws.amazon.com/training/path-cloudpractitioner/"
+  },
+  {
     "name": "Business Reinvention Practitioner",
     "description": "BRi training given by Clerestory Consulting",
     "location": "Zaltbommel",
