@@ -12,6 +12,7 @@
           "International development team",
           "Coach/Trainer",
           "Responsible for HOMT, a large BI web app for the Hitachi Vantara Supply Chain and for Procurement, BI web app for Procurement within Hitachi Vantara.",
+          "Created a Web app that connects WMS to Carriers and consolidates/prints labels for packages",
           "Develop logistics applications and tools for thousands of employees worldwide",
           "Architect the infrastructure and growth of the userbase",
           "Administer Redhat Enterpise Linux virtual machines",
@@ -20,8 +21,8 @@
           "Create, manage and deploy dynamic websites using Ruby on Rails and Capistrano",
           "Use HTML, CSS, Bootstrap, JavaScript and Highcharts to visualize, enhance, and automate charts, reports and processes",
           "Use PowerBI to combine and visualize data into insights",
-          "Work with Oracle and Salesforce.com amongst other data sources",
-          "Monitor infrastructure using Elastic ELK stack, Slack, created Scheduling app"
+          "Work with Oracle DB/Applications and Salesforce.com amongst other data sources",
+          "Monitor infrastructure using Elastic ELK stack, Slack, created a scheduling/notification app"
         ]
       }
     ]
@@ -36,7 +37,7 @@
         "name": "Founder",
         "dates": "Feb 2008 - May 2015",
         "points": [
-          "Various areas of Web Development"
+          "Various areas of Web Development and Sys admin"
         ]
       }
     ]

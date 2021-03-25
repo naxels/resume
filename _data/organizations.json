@@ -9,7 +9,7 @@
   },
   {
     "name": "Functional Programming",
-    "title": "Clojure, Elixir, Haskell",
+    "title": "Clojure, Elixir, FP capabilities in Ruby/Python",
     "image": "/assets/images/organizations/clojure.png",
     "dates": "Oct 2018 - Present",
     "url": "https://clojure.org"

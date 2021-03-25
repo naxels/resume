@@ -5,21 +5,6 @@
     "url": "https://en.wikipedia.org/wiki/SQL"
   },
   {
-    "name": "Power BI",
-    "image": "/assets/images/skills/powerbi.jpg",
-    "url": "https://powerbi.microsoft.com"
-  },
-  {
-    "name": "Tableau",
-    "image": "/assets/images/skills/tableau.png",
-    "url": "https://www.tableau.com"
-  },
-  {
-    "name": "Data Integration",
-    "image": "/assets/images/skills/pdi.png",
-    "url": "https://www.hitachivantara.com/en-us/products/big-data-integration-analytics/pentaho-data-integration.html"
-  },
-  {
     "name": "Ruby",
     "image": "/assets/images/skills/ruby.png",
     "url": "https://www.ruby-lang.org/en/about/"
@@ -33,6 +18,21 @@
     "name": "PostgreSQL",
     "image": "/assets/images/skills/postgres.png",
     "url": "https://www.postgresql.org/about/"
+  },
+  {
+    "name": "Power BI",
+    "image": "/assets/images/skills/powerbi.jpg",
+    "url": "https://powerbi.microsoft.com"
+  },
+  {
+    "name": "Tableau",
+    "image": "/assets/images/skills/tableau.png",
+    "url": "https://www.tableau.com"
+  },
+  {
+    "name": "Data Integration",
+    "image": "/assets/images/skills/pdi.png",
+    "url": "https://www.hitachivantara.com/en-us/products/big-data-integration-analytics/pentaho-data-integration.html"
   },
   {
     "name": "Highcharts JS",
@@ -63,6 +63,11 @@
     "name": "Elastic ELK Stack",
     "image": "/assets/images/skills/elastic.png",
     "url": "https://www.elastic.co/products"
+  },
+  {
+    "name": "Python 3",
+    "image": "/assets/images/skills/python.svg",
+    "url": "https://www.python.org"
   },
   {
     "name": "Go",
