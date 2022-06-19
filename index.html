@@ -2,7 +2,7 @@
 layout: default
 portrait: assets/images/patrick.jpg
 author: Patrick van de Glind
-subtitle: Turn data into insights<br>Continuously learn and grow
+subtitle: Turn data into insights<br/>Continuously learn and grow
 email: naxels@gmail.com
 source: https://github.com/naxels/resume
 summary: >-
@@ -25,10 +25,10 @@ summary: >-
     <div class="col-md-10">
       <h3 class="text-center" style="font-size: 2em; margin-top: .25em;">
         {% for network in site.data.networks %}
-        <a href="{{ network.url }}" target="_blank"
-          style="text-decoration: none; color: #6c757d; padding: .2em;">
-          <i class="{{ network.icon }}"></i>
-        </a>
+          <a href="{{ network.url }}" target="_blank"
+            style="text-decoration: none; color: #6c757d; padding: .2em;">
+            <i class="{{ network.icon }}"></i>
+          </a>
         {% endfor %}
       </h3>
     </div>
@@ -71,39 +71,39 @@ summary: >-
         </div>
         <div class="card-body">
           {% for company in site.data.companies %}
-          <div class="row align-items-center">
-            <div class="col-6 order-1 col-sm-4 order-md-1">
-              <a href="{{ company.url }}" target="_blank">
-                <img class="img-fluid rounded" src="{{ company.image | relative_url }}">
-              </a>
+            <div class="row align-items-center">
+              <div class="col-6 order-1 col-sm-4 order-md-1">
+                <a href="{{ company.url }}" target="_blank">
+                  <img class="img-fluid rounded" src="{{ company.image | relative_url }}">
+                </a>
+              </div>
+              <div class="col-24 order-3 col-md order-md-2">
+                <h3 class=""><strong>{{ company.name }}</strong></h3>
+              </div>
+              <div class="col-18 order-2 col-md-4 order-md-3">
+                <p class="text-muted text-right">{{ company.location }}</p>
+              </div>
             </div>
-            <div class="col-24 order-3 col-md order-md-2">
-              <h3 class=""><strong>{{ company.name }}</strong></h3>
-            </div>
-            <div class="col-18 order-2 col-md-4 order-md-3">
-              <p class="text-muted text-right">{{ company.location }}</p>
-            </div>
-          </div>
-          {% for position in company.positions %}
-          <div class="row align-items-center">
-            <div class="col-24 col-md-20 offset-md-4 col-lg-20">
-              <h4>{{ position.name }}</h4>
-            </div>
-            <div class="col-24 col-md-5 col-lg-5">
-              <p class="text-muted text-left"><small>{{ position.dates }}</small></p>
-            </div>
-            <div class="col-24 col-md-19 col-lg-15 offset-lg-0">
-              <ul>
-                {% for point in position.points %}
-                <li class="text-muted">{{ point }}</li>
-                {% endfor %}
-              </ul>
-            </div>
-          </div>
-          {% endfor %}
-          {% if company != site.data.companies.last %}
-            <hr/>
-          {% endif %}
+            {% for position in company.positions %}
+              <div class="row align-items-center">
+                <div class="col-24 col-md-20 offset-md-4 col-lg-20">
+                  <h4>{{ position.name }}</h4>
+                </div>
+                <div class="col-24 col-md-5 col-lg-5">
+                  <p class="text-muted text-left"><small>{{ position.dates }}</small></p>
+                </div>
+                <div class="col-24 col-md-19 col-lg-15 offset-lg-0">
+                  <ul>
+                    {% for point in position.points %}
+                    <li class="text-muted">{{ point }}</li>
+                    {% endfor %}
+                  </ul>
+                </div>
+              </div>
+            {% endfor %}
+            {% if company != site.data.companies.last %}
+              <hr/>
+            {% endif %}
           {% endfor %}
         </div>
       </div>
@@ -114,25 +114,25 @@ summary: >-
         </div>
         <div class="card-body">
           {% for school in site.data.schools %}
-          <div class="row align-items-center">
-            <div class="col-6 col-sm-4 order-lg-1 order-md-1">
-              <a href="{{ school.url }}" target="_blank">
-                <img class="img-fluid rounded" src="{{ school.image | relative_url }}">
-              </a>
+            <div class="row align-items-center">
+              <div class="col-6 col-sm-4 order-lg-1 order-md-1">
+                <a href="{{ school.url }}" target="_blank">
+                  <img class="img-fluid rounded" src="{{ school.image | relative_url }}">
+                </a>
+              </div>
+              <div class="col-18 col-lg order-lg-3 col-md order-md-3">
+                <p class="text-muted text-nowrap text-right">{{ school.description }}</p>
+              </div>
+              <div class="col-24 col-lg order-lg-2 col-md order-md-2">
+                <h3 class="text-nowrap">{{ school.name }}</h3>
+              </div>
+              <div class="col-24 col-lg order-lg-4 order-md-4">
+                <p class="text-muted text-right"><small>{{ school.dates }}</small></p>
+              </div>
             </div>
-            <div class="col-18 col-lg order-lg-3 col-md order-md-3">
-              <p class="text-muted text-nowrap text-right">{{ school.description }}</p>
-            </div>
-            <div class="col-24 col-lg order-lg-2 col-md order-md-2">
-              <h3 class="text-nowrap">{{ school.name }}</h3>
-            </div>
-            <div class="col-24 col-lg order-lg-4 order-md-4">
-              <p class="text-muted text-right"><small>{{ school.dates }}</small></p>
-            </div>
-          </div>
-          {% if school != site.data.school.last %}
-          <hr/>
-          {% endif %}
+            {% if school != site.data.school.last %}
+              <hr/>
+            {% endif %}
           {% endfor %}
         </div>
       </div>
@@ -143,25 +143,25 @@ summary: >-
         </div>
         <div class="card-body">
           {% for organization in site.data.organizations %}
-          <div class="row align-items-center">
-            <div class="col-6 col-sm-4 order-lg-1 order-md-1">
-              <a href="{{ organization.url }}" target="_blank">
-                <img class="img-fluid rounded" src="{{ organization.image | relative_url }}">
-              </a>
+            <div class="row align-items-center">
+              <div class="col-6 col-sm-4 order-lg-1 order-md-1">
+                <a href="{{ organization.url }}" target="_blank">
+                  <img class="img-fluid rounded" src="{{ organization.image | relative_url }}">
+                </a>
+              </div>
+              <div class="col-48 col-md-11 col-lg-9 order-lg-2 col-md order-md-2">
+                <h3 class="text-nowrap">{{ organization.name }}</h3>
+              </div>
+              <div class="col-18 col-md-7 col-lg-7 order-lg-3 col-md order-md-3">
+                <p class="text-muted text-nowrap text-left">{{ organization.title }}</p>
+              </div>
+              <div class="col-24 col-md-3 col-lg-3 order-lg-4 order-md-4">
+                <p class="text-muted text-right"><small>{{ organization.dates }}</small></p>
+              </div>
             </div>
-            <div class="col-18 col-lg order-lg-3 col-md order-md-3">
-              <p class="text-muted text-nowrap text-right">{{ organization.title }}</p>
-            </div>
-            <div class="col-24 col-lg order-lg-2 col-md order-md-2">
-              <h3 class="text-nowrap">{{ organization.name }}</h3>
-            </div>
-            <div class="col-24 col-lg order-lg-4 order-md-4">
-              <p class="text-muted text-right"><small>{{ organization.dates }}</small></p>
-            </div>
-          </div>
-          {% if organization != site.data.organizations.last %}
-          <hr/>
-          {% endif %}
+            {% if organization != site.data.organizations.last %}
+              <hr/>
+            {% endif %}
           {% endfor %}
         </div>
       </div>

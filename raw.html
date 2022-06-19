@@ -2,7 +2,7 @@
 layout: default
 title: Resume
 author: Patrick van de Glind
-subtitle: Turn data into insights.
+subtitle: Turn data into insights<br/>Continuously learn and grow
 phone: +31615457709
 email: naxels@gmail.com
 link: https://naxels.github.io/resume
@@ -18,8 +18,8 @@ source: https://github.com/naxels/resume
   </p>
   <p><strong>
     For full version of resume, please visit:<br/>
-    >>>>>&nbsp;<a href="https://naxels.github.io/resume" style="text-decoration: underline;">
-      https://naxels.github.io/resume
+    >>>>>&nbsp;<a href="{{ page.link }}" style="text-decoration: underline;">
+      {{ page.link }}
     </a>
   </strong></p>
   <br/>
@@ -35,9 +35,9 @@ source: https://github.com/naxels/resume
   <br/>
   <h3>Work History</h3>
   {% for company in site.data.companies %}
-  <h4><strong>{{ company.name }} - {{ company.location }}</strong></h4>
+    <h4><strong>{{ company.name }} - {{ company.location }}</strong></h4>
     {% for position in company.positions %}
-    <h5>{{ position.dates }} - {{ position.name }}</h5>
+      <h5>{{ position.dates }} - {{ position.name }}</h5>
       <ul>
       {% for point in position.points %}
         <li>{{ point }}</li>
@@ -49,11 +49,11 @@ source: https://github.com/naxels/resume
   <br/>
   <h3>Education</h3>
   {% for school in site.data.schools %}
-  <h4><strong>{{ school.name }} - {{ school.location }}</h4>
+    <h4><strong>{{ school.name }} - {{ school.location }}</h4>
     <p>{{ school.dates }}</p>
     <ul>
     {% for point in school.points %}
-    <li>{{ point }}</li>
+      <li>{{ point }}</li>
     {% endfor %}
     </ul>
     <br/>
