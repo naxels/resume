@@ -1,18 +1,18 @@
 [
   {
-    "icon": "fas fa-phone",
+    "icon": "fa-solid fa-phone",
     "url": "tel:+31615457709"
   },{
-    "icon": "fas fa-envelope",
+    "icon": "fa-solid fa-envelope",
     "url": "mailto:naxels@gmail.com"
   },{
-    "icon": "fab fa-github",
+    "icon": "fa-brands fa-github",
     "url": "https://github.com/naxels"
   },{
-    "icon": "fab fa-twitter",
+    "icon": "fa-brands fa-twitter",
     "url": "https://twitter.com/naxels"
   },{
-    "icon": "fab fa-linkedin",
+    "icon": "fa-brands fa-linkedin",
     "url": "https://www.linkedin.com/in/patrick-van-de-glind-1003464/"
   }
 ]
