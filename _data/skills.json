@@ -1,6 +1,6 @@
 [
   {
-    "name": "Advanced SQL",
+    "name": "SQL",
     "image": "/assets/images/skills/sql.png",
     "url": "https://en.wikipedia.org/wiki/SQL"
   },
@@ -12,12 +12,17 @@
   {
     "name": "Ruby on Rails",
     "image": "/assets/images/skills/rails.png",
-    "url": "http://rubyonrails.org/"
+    "url": "https://rubyonrails.org"
   },
   {
     "name": "PostgreSQL",
     "image": "/assets/images/skills/postgres.png",
     "url": "https://www.postgresql.org/about/"
+  },
+  {
+    "name": "Clojure",
+    "image": "/assets/images/skills/clojure.png",
+    "url": "https://clojure.org"
   },
   {
     "name": "Power BI",
@@ -78,6 +83,11 @@
     "name": "Bootstrap",
     "image": "/assets/images/skills/bootstrap.png",
     "url": "https://getbootstrap.com/"
+  },
+  {
+    "name": "tailwindcss",
+    "image": "/assets/images/skills/tailwind.svg",
+    "url": "https://tailwindcss.com"
   },
   {
     "name": "JavaScript",

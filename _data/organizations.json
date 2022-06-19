@@ -9,8 +9,8 @@
   },
   {
     "name": "Functional Programming",
-    "title": "Clojure, Elixir, FP capabilities in Ruby/Python",
-    "image": "/assets/images/organizations/clojure.png",
+    "title": "Clojure, Elixir<br/>FP capabilities in Ruby/Python<br/>Transpile to Javascript",
+    "image": "/assets/images/skills/clojure.png",
     "dates": "Oct 2018 - Present",
     "url": "https://clojure.org"
   },
