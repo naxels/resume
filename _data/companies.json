@@ -11,18 +11,19 @@
         "points": [
           "International development team",
           "Coach/Trainer",
-          "Responsible for HOMT, a large BI web app for the Hitachi Vantara Supply Chain and for Procurement, BI web app for Procurement within Hitachi Vantara.",
-          "Created a Web app that connects WMS to Carriers and consolidates/prints labels for packages",
+          "Responsible for several apps, HOMT: a large BI web app for the Hitachi Vantara Supply Chain. Labelling: a realtime web app to create labels for packages with various carriers. Procurement: BI web app for Procurement within Hitachi Vantara. (retired)",
           "Develop logistics applications and tools for thousands of employees worldwide",
           "Architect the infrastructure and growth of the userbase",
           "Administer Redhat Enterpise Linux virtual machines",
-          "Incorporate various back-end data steams using Pentaho Data Integration",
-          "Backup and manage PostgreSQL database",
-          "Create, manage and deploy dynamic websites using Ruby on Rails and Capistrano",
+          "Incorporate various back-end data steams using Pentaho Data Integration and other tools",
+          "Backup and manage PostgreSQL databases",
+          "Setup PostgreSQL FDW's where useful",
+          "Create API server for connecting web apps with backend databases for realtime responses",
+          "Create, manage and deploy dynamic websites using Ruby on Rails and Capistrano and others",
           "Use HTML, CSS, Bootstrap, JavaScript and Highcharts to visualize, enhance, and automate charts, reports and processes",
           "Use PowerBI to combine and visualize data into insights",
           "Work with Oracle DB/Applications and Salesforce.com amongst other data sources",
-          "Monitor infrastructure using Elastic ELK stack, Slack, created a scheduling/notification app"
+          "Monitor infrastructure using Elastic ELK stack, Slack, Teams, created a scheduling/notification app"
         ]
       }
     ]

@@ -8,17 +8,17 @@
     "url": "https://aws.amazon.com"
   },
   {
-    "name": "Functional Programming",
-    "title": "Clojure, Elixir<br/>FP capabilities in Ruby/Python<br/>Transpile to Javascript",
+    "name": "Functional &<br/>Concurrent Programming",
+    "title": "Clojure, Elixir<br/>FP/Concurrent capabilities in Ruby/Python<br/>Transpile to Javascript",
     "image": "/assets/images/skills/clojure.png",
     "dates": "Oct 2018 - Present",
     "url": "https://clojure.org"
   },
   {
-    "name": "BI Tools",
-    "title": "Power BI, Tableau",
-    "image": "/assets/images/skills/powerbi.jpg",
-    "dates": "Dec 2018 - Present",
-    "url": "https://powerbi.microsoft.com"
+    "name": "Data Integration / CDC Tools",
+    "title": "Apache Hop, SeaTunnel, Airbyte",
+    "image": "/assets/images/skills/seatunnel.png",
+    "dates": "Dec 2020 - Present",
+    "url": "https://seatunnel.apache.org"
   }
 ]

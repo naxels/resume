@@ -25,6 +25,11 @@
     "url": "https://clojure.org"
   },
   {
+    "name": "Elixir",
+    "image": "/assets/images/skills/elixir.png",
+    "url": "https://elixir-lang.org"
+  },
+  {
     "name": "Power BI",
     "image": "/assets/images/skills/powerbi.jpg",
     "url": "https://powerbi.microsoft.com"
@@ -75,11 +80,6 @@
     "url": "https://www.python.org"
   },
   {
-    "name": "Go",
-    "image": "/assets/images/skills/golang.png",
-    "url": "https://golang.org"
-  },
-  {
     "name": "Bootstrap",
     "image": "/assets/images/skills/bootstrap.png",
     "url": "https://getbootstrap.com/"
@@ -103,5 +103,10 @@
     "name": "CSS3",
     "image": "/assets/images/skills/css3.png",
     "url": "https://en.wikipedia.org/wiki/Cascading_Style_Sheets"
+  },
+  {
+    "name": "Go (stopped using)",
+    "image": "/assets/images/skills/golang.png",
+    "url": "https://golang.org"
   }
 ]
