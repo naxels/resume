@@ -15,10 +15,17 @@
     "url": "https://clojure.org"
   },
   {
-    "name": "Data Integration / CDC Tools",
-    "title": "Apache Hop, SeaTunnel, Airbyte",
+    "name": "Data Integration / CDC Tools<br/>& Analytics databases",
+    "title": "Apache Hop, SeaTunnel, Airbyte,<br/>Airflow, DuckDB",
     "image": "/assets/images/skills/seatunnel.png",
     "dates": "Dec 2020 - Present",
     "url": "https://seatunnel.apache.org"
+  },
+  {
+    "name": "Event streaming /<br/>Soft Real-time",
+    "title": "Kafka, Parquet, Arrow, Spark,<br/>Flink, Pinot, Websockets",
+    "image": "/assets/images/skills/kafka.png",
+    "dates": "Dec 2020 - Present",
+    "url": "https://kafka.apache.org"
   }
 ]
