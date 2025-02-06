@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Functional Programming",
+    "title": "Rust, Clojure, Elixir<br/>FP capabilities in Ruby/Python<br/>Transpiling to Javascript",
+    "image": "/assets/images/skills/rust.svg",
+    "dates": "Oct 2018 - Present",
+    "url": "https://www.rust-lang.org"
+  },
+  {
+    "name": "Data exploration, analysis,<br/>engineering",
+    "title": "DuckDB, Metabase, PowerBI, Power Query,<br/>Analytics databases",
+    "image": "/assets/images/skills/duckdb.svg",
+    "dates": "Jan 2019 - Present",
+    "url": "https://duckdb.org"
+  },
+  {
+    "name": "Data Integration, ETL/ELT,<br/> CDC Tools",
+    "title": "Apache Hop, SeaTunnel, Airbyte,<br/>Airflow",
+    "image": "/assets/images/skills/seatunnel.png",
+    "dates": "Dec 2020 - Present",
+    "url": "https://seatunnel.apache.org"
+  },
+  {
+    "name": "Event streaming /<br/>Soft Real-time data",
+    "title": "Kafka, Parquet, Arrow, Spark,<br/>Flink, Pinot, Websockets",
+    "image": "/assets/images/skills/kafka.png",
+    "dates": "Dec 2020 - Present",
+    "url": "https://kafka.apache.org"
+  }
+]

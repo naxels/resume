@@ -35,8 +35,8 @@ summary: >-
     <div class="col-lg-18 offset-lg-3 col-24">
       <hr/>
       <p class="text-center" style="font-size: 1.3em;">{{ page.summary }}</p>
-      <p class="text-center">I believe that programming is data transformation. I know OO, Functional and Declarative programming.</a></p>
-      <p class="text-center">I am curious, think outside the box and am a self-starter.</a></p>
+      <p class="text-center">I believe that programming is data transformation. I prefer Functional and Declarative programming, also know OO and Imperative.</a></p>
+      <p class="text-center">I am curious, think outside the box, love to learn new things and am a self-starter.</a></p>
     </div>
   </div>
   <div class="row">
@@ -142,24 +142,24 @@ summary: >-
           <h2 class="my-accent-font">Current areas of interest</h2>
         </div>
         <div class="card-body">
-          {% for organization in site.data.organizations %}
+          {% for area in site.data.interests %}
             <div class="row align-items-center">
               <div class="col-6 col-sm-4 order-lg-1 order-md-1">
-                <a href="{{ organization.url }}" target="_blank">
-                  <img class="img-fluid rounded" src="{{ organization.image | relative_url }}">
+                <a href="{{ area.url }}" target="_blank">
+                  <img class="img-fluid rounded" src="{{ area.image | relative_url }}">
                 </a>
               </div>
               <div class="col-48 col-md-11 col-lg-9 order-lg-2 col-md order-md-2">
-                <h3 class="text-nowrap">{{ organization.name }}</h3>
+                <h3 class="text-nowrap">{{ area.name }}</h3>
               </div>
               <div class="col-18 col-md-7 col-lg-7 order-lg-3 col-md order-md-3">
-                <p class="text-muted text-nowrap text-left">{{ organization.title }}</p>
+                <p class="text-muted text-nowrap text-left">{{ area.title }}</p>
               </div>
               <div class="col-24 col-md-3 col-lg-3 order-lg-4 order-md-4">
-                <p class="text-muted text-right"><small>{{ organization.dates }}</small></p>
+                <p class="text-muted text-right"><small>{{ area.dates }}</small></p>
               </div>
             </div>
-            {% if organization != site.data.organizations.last %}
+            {% if area != site.data.area.last %}
               <hr/>
             {% endif %}
           {% endfor %}
